@@ -6,7 +6,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 $clock-font: 'https://fonts.googleapis.com/css?family=Montserrat';
 $main-font: 'https://fonts.googleapis.com/css?family=Open+Sans:400,600italic';
-$white: whit;
+$white: white;
 
 
 body{
@@ -81,16 +81,19 @@ h3, h4 {
   bottom: 5%;
 }
 
-.social-icons > li > {
-    i {
-      padding-left: 10%;
-      padding-right: 10%;
-    }
+.social-icons {
     a {
       color: #404040;
+      &:hover {
+        color: $white;
+      }
     }
 }
 
+.list-inline > li {
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
 
 
