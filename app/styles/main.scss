@@ -1,8 +1,17 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$fa-font-path: "../fonts";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
+
+
+// $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+// $fa-font-path: "/bower_components/font-awesome/fonts";
+
+// @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
 
 $clock-font: 'https://fonts.googleapis.com/css?family=Montserrat';
 $main-font: 'https://fonts.googleapis.com/css?family=Open+Sans:400,600italic';

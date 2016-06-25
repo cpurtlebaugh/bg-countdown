@@ -334,9 +334,10 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>',
           src: [
             '*.{ico,png,txt}',
-            'images/{,*/}*.webp',
+            'bower_components/**/*',
             '{,*/}*.html',
-            'styles/fonts/{,*/}*.*'
+            'images/{,*/}*.webp',
+            'fonts/{,*/}*.*'
           ]
         }, {
           expand: true,
@@ -344,6 +345,11 @@ module.exports = function (grunt) {
           cwd: '.',
           src: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*',
           dest: '<%= config.dist %>'
+        }, {
+          expand: true,
+          cwd: 'bower_components/font-awesome/fonts/',
+          src: ['*.*'],
+          dest: '<%= config.dist %>/fonts'
         }]
       }
     },
