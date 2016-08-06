@@ -1,16 +1,10 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-$fa-font-path: "../fonts";
-
+// $fa-font-path: "../fonts";
+$fa-font-path: "/bower_components/font-awesome/fonts";
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
-
-
-// $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
-// $fa-font-path: "/bower_components/font-awesome/fonts";
-
-// @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 
 
 $clock-font: 'https://fonts.googleapis.com/css?family=Montserrat';
@@ -22,7 +16,7 @@ $light-grey: #DCDCDC;
 
 body{
   text-align: center;
-  font-family: sans-serif;
+  // font-family: $clock-font;
   font-weight: 100;
   margin: 0;
   padding: 0;
@@ -37,6 +31,7 @@ h1{
 }
 
 h3 {
+  font-family: $clock-font;
   font-family: $main-font;
   color: $light-grey;
   letter-spacing: .50em;
