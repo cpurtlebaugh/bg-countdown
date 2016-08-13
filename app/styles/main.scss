@@ -25,6 +25,8 @@ body{
 }
 
 h1{
+  font-family: $clock-font;
+  letter-spacing: .50em;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
