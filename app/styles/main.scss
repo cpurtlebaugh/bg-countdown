@@ -24,19 +24,11 @@ body{
   background-size: cover;
 }
 
-h1{
-  font-family: $clock-font;
-  letter-spacing: .50em;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
-}
-
 h3 {
-  font-family: $clock-font;
   font-family: $main-font;
   color: $light-grey;
   letter-spacing: .50em;
+  font-size: 37%;
 }
 
 
@@ -51,11 +43,16 @@ h3 {
   color: white;
 }
 
+.boigirl-logo {
+  max-width: 35%;
+}
+
+
 // CLOCK
 #clockdiv{
   position: absolute;
   margin: 0 auto;
-  top: 40%;
+  top: 36%;
   bottom: 0;
   right: 0;
   left: 0;
@@ -105,20 +102,22 @@ h3 {
 }
 
 @media only screen and (min-width : 480px) and (max-width : 780px) {
-  .title {
-    top: 0%;
+
+  .boigirl-logo {
+    margin-top: 5%;
+    max-width: 45%;
   }
 
 // until next release text
   h3 {
-    font-size: 18px;
+    font-size: 45%;
     letter-spacing: .25em;
   }
 
 // CLOCK
   #clockdiv{
-    top: 30%;
-    font-size: 20px;
+    top: 35%;
+    font-size: 40px;
   }
 
   .smalltext{
@@ -137,20 +136,21 @@ h3 {
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
-  .title {
-    top: 5%;
+  .boigirl-logo {
+    max-width: 60%;
+    margin-top: 10%
   }
 
 // until next release text
   h3 {
-    font-size: 14px;
+    font-size: 55%;
     letter-spacing: .25em;
   }
 
 // CLOCK
   #clockdiv{
     top: 36%;
-    font-size: 25px;
+    font-size: 30px;
   }
 
 
